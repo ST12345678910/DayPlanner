@@ -13,5 +13,5 @@
 ### [Deployed Site]()
 <p align="center">Desktop
 <p align="center">
-  <img src="Assets/demopic1.png" />
+  <img src="assets/plannerdemo1.png" />
 </p>
