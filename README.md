@@ -10,7 +10,7 @@
  for notifications. 
  
  
-### [Deployed Site]()
+### [Deployed Site](https://st12345678910.github.io/DayPlanner/)
 <p align="center">Desktop
 <p align="center">
   <img src="assets/plannerdemo1.png" />
