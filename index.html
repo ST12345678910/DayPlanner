@@ -13,12 +13,18 @@
 </head>
 
 <body>
+
+  <!-- all of the divs for each time block of the day are present below, they are all identical aside from their id and text content -->
+
   <div class="container-sm">
   <header class="jumbotron">
     <h1 class="display-3">Day Planner</h1>
     <p class="lead">A calender app to help organize your day</p>
     <p id="timeNow" class="lead"></p>
   </header>
+
+<!-- above is the header where the title, descrption, and date are. The date is filled using moment.js, check script doc -->
+
   <div class="container-fluid">
     <div id="hour9" class="row timeAt">
       <div class="col-md-1 hour">9:00AM</div>
@@ -30,46 +36,39 @@
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button></div>
     <div id="hour11" class="row timeAt">
       <div class="col-md-1 hour">11:00AM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button></div>
     <div id="hour12" class="row timeAt">
       <div class="col-md-1 hour">12:00PM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button></div>
     <div id="hour13" class="row timeAt">
       <div class="col-md-1 hour">1:00PM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button></div>
     <div id="hour14" class="row timeAt">
       <div class="col-md-1 hour">2:00PM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button></div>
     <div id="hour15" class="row timeAt">
       <div class="col-md-1 hour">3:00PM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button>
     </div>
     <div id="hour16" class="row timeAt">
       <div class="col-md-1 hour">4:00PM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button>
     </div>
     <div id="hour17" class="row timeAt">
       <div class="col-md-1 hour">5:00PM</div>
-      <textarea class="col-md-10 eventDesc">
-        </textarea>
+      <textarea class="col-md-10 eventDesc"></textarea>
       <button class="btn saveInfo col-md-1"><i class="material-icons">add_circle</i></button>
     </div>
     </div>
 
 
-
+<!-- jQuery, moment.js, and notify.js are linked below -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

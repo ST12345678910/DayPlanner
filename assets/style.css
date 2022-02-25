@@ -1,10 +1,16 @@
+/* removes the resizing of textarea boxes */
+
 .eventDesc {
   resize: none;
 }
 
+/* aligns everything inside container to center */
+
 .container {
   text-align: center;
 }
+
+/* defines body color, keeping text area blank because it will change color dependant on id, and adding black border to text element */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -34,10 +40,6 @@ textarea {
   white-space: pre-wrap;
 }
 
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
 
 .row {
   white-space: pre-wrap;
@@ -45,6 +47,8 @@ textarea {
   border-top: 1px solid black;
   ;
 }
+
+/* styles the box where the time of day is */
 
 .hour {
   background-color: #66b3ba;
@@ -67,6 +71,8 @@ textarea {
   color: white;
 }
 
+/* info button gets larger temporarily, changes color, and so does inside icon when hovered over */
+
 .saveInfo {
   border: 2px solid black;
   border-top-right-radius: 15px;
@@ -81,6 +87,8 @@ textarea {
   background-color: blue;
   color: coral;
 }
+
+/* notification is pushed to area near the title so that it is easy to see */
 
 .notifyjs-corner {
   top: 48px !important;
