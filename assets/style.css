@@ -1,0 +1,92 @@
+.eventDesc {
+  resize: none;
+}
+
+.container {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #66b3ba;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 5px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid black;
+  ;
+}
+
+.hour {
+  background-color: #66b3ba;
+  color: #000000;
+  border-top: 1px solid #000000;
+}
+
+.before {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.now {
+  background-color: #f79d84;
+  color: white;
+}
+
+.future {
+  background-color: #59cd90;
+  color: white;
+}
+
+.saveInfo {
+  border: 2px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: darkgrey;
+  color: white;
+}
+
+.saveInfo:hover {
+  font-size: 35px;
+  transition: .3s ease-in;
+  background-color: blue;
+  color: coral;
+}
+
+.notifyjs-corner {
+  top: 48px !important;
+  right: 250px !important;
+}
+
+.container-sm {
+  border: solid black 5px;
+}
